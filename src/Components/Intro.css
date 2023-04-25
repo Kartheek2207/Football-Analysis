@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.header {
+  color: rgb(220, 18, 59);
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 0px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.header img {
+  width: 40px;
+  height: 40px;
+}
+
+.Abstract {
+  background-color: antiquewhite;
+  margin: 10px;
+  padding: 6px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.para1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+.moving-icon-heading {
+  position: relative;
+}
+
+.moving-icon-heading h1 {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.moving-icon-heading img {
+  position: absolute;
+  top: 50%;
+  left: 120px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  animation: move 2s linear infinite;
+}
+
+.head1 {
+  text-align: left;
+  font-size: 25px;
+  background-color: antiquewhite;
+  margin: 5px;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-50%) rotate(360deg);
+  }
+}
+
+.schema img {
+  display: flex;
+  height: 60vh;
+  width: 60vw;
+  align-items: center;
+  justify-content: center;
+}

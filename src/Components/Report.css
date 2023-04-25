@@ -1,0 +1,14 @@
+.report {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+.head2 {
+  text-align: left;
+  font-size: 25px;
+  background-color: antiquewhite;
+  margin: 5px;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
